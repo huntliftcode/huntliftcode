@@ -155,9 +155,12 @@ export default function OutsideOfWork() {
                     </div>
                 </Tabs.Item>
                 <Tabs.Item title="Hunting" >
-                    <div className="grid grid-cols-2">
-                        <img src={blind} className='m-auto col-span-1 w-96 h-auto rounded-full'></img>
-                        <img src={bow} className='m-auto col-span-1 w-96 h-auto rounded-full'></img>
+                    <div className="grid grid-cols-6">
+                        {/* <img src={blind} className='m-auto col-span-1 w-96 h-auto rounded-full'></img> */}
+                        <img src={bow} className='m-auto col-span-2 w-96 h-auto rounded-xl'></img>
+                        <p className='col-span-4 text-lg pt-4'>
+                            I am an avid deer hunter and spend as much time as I can in the woods between October and January.  I happily hunt every open season but prefer archery season.  There is something about the transitioning fall weather and close encounters provided during archery hunting that keep me engaged at the highest level.  In addition to the draw of being in nature and refining the skills of hunting, the camaraderie in hunting camp might the most appealing aspects of this hobby.  
+                        </p>
                     </div>
                 </Tabs.Item>
             </Tabs.Group>

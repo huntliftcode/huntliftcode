@@ -11,4 +11,15 @@
     @apply text-sky-700;
     @apply ml-8;
   }
+  h2 {
+    @apply text-xl;
+    @apply font-semibold;
+    @apply text-sky-500;
+  }
+
+  h3 {
+    @apply text-lg;
+    @apply font-semibold;
+    @apply text-slate-500;
+  }
 }

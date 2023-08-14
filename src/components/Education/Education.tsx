@@ -8,18 +8,42 @@ export default function Education() {
         <h1>Education</h1>
         <div className='grid grid-rows-2 gap-4'>
             <div className='grid grid-cols-12 gap-12 place-content-around'>
-                <img src={auLogo} className='m-auto max-h-52 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
-                <p className='col-span-9 mt-6'>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <img src={iuLogo} className='m-auto max-h-64 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
+                <div className='col-span-9 mt-6'>
+                    <div className='grid grid-rows-10 gap-4'>
+                        <div className='row-span-2'>
+                            <h2>M.S. Applied Data Science</h2>
+                            <h3>Indiana University</h3>
+                        </div>
+                        <div className='row-span-1'>
+                            <h3>August 2019 - December 2020</h3>
+                            <h3>GPA: 3.96</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
             
             
             <div className='grid grid-cols-12 gap-12 place-content-around'>
-                <img src={iuLogo} className='m-auto max-h-64 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
-                <p className='col-span-9 mt-6'>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                </p>
+                <img src={auLogo} className='m-auto max-h-52 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
+                <div className='col-span-9 mt-6'>
+                    <div className='grid grid-rows-10 gap-4'>
+                        <div className='row-span-2'>
+                            <h2>B.A. Mathematics</h2>
+                            <h2>B.A. Computer Science</h2>
+                            <h3>Anderson University</h3>
+                        </div>
+                        <div className='row-span-1'>
+                            <h3>August 2013 - December 2016</h3>
+                            <h3>GPA: 3.82</h3>
+                        </div>
+                        <div className='row-span-1'>
+                            <h3>Honors:</h3>
+                            <h3 className='italic pl-4'>Honors in Mathematics</h3>
+                            <h3 className='italic pl-4'>Magna Cum Laude</h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </>

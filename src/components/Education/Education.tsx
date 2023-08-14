@@ -8,7 +8,7 @@ export default function Education() {
         <h1>Education</h1>
         <div className='grid grid-rows-2 gap-4'>
             <div className='grid grid-cols-12 gap-12 place-content-around'>
-                <img src={iuLogo} className='m-auto max-h-64 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
+                <img src={iuLogo} className='m-auto max-h-64 col-span-3 rounded-3xl border border-gray-100 shadow-sm'></img>
                 <div className='col-span-9 mt-6'>
                     <div className='grid grid-rows-10 gap-4'>
                         <div className='row-span-2'>
@@ -25,7 +25,7 @@ export default function Education() {
             
             
             <div className='grid grid-cols-12 gap-12 place-content-around'>
-                <img src={auLogo} className='m-auto max-h-52 col-span-3 rounded-full border border-gray-100 shadow-sm'></img>
+                <img src={auLogo} className='m-auto max-h-52 col-span-3 rounded-3xl border border-gray-100 shadow-sm'></img>
                 <div className='col-span-9 mt-6'>
                     <div className='grid grid-rows-10 gap-4'>
                         <div className='row-span-2'>

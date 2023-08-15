@@ -3,9 +3,8 @@ import tabTheme from "../../themes/TabTheme.ts"
 import deadlift from "/personal/deadlift.png"
 import squat from "/personal/squat.png"
 import bench from "/personal/bench.png"
-import blind from "/personal/blind_hunt.jpg"
 import bow from "/personal/bow_hunt.jpg"
-// import LiftingInfoModal from "./LiftingInfoModal.tsx"
+
 import Lift from "./Lift.ts"
 import { useState } from "react"
 

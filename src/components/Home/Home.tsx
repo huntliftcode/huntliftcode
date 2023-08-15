@@ -19,9 +19,10 @@ export default function Home() {
                     <p className='pb-4'>
                         In previous roles, I spent the majority of my time developing a ReactJS application with a Ruby on Rails and Go backend ETL pipeline built using AWS S3, SQS, EventBridge, and RDS.  This application was leveraged by product developers to triage realtime issue by aggregated data across internal and third party API data.
                     </p>
-                    <p>
+                    <p className='pb-12'>
                         When not coding at work, I spend time training for competitive powerlifting and deer hunting.  I compete in the 220lb and 242lb weight classes with my best total being 1714lb in the 220lb weight class.  I try to plan competitions outside of the fall where I'm likely to be found sitting in a tree stand waiting for a white tailed deer to walk by.
                     </p>
+                    <h3>To see the code for this static ReactJS site hosted on S3, checkout the github link in the navbar!</h3>
                 </div>
             </div>
         </>
